@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost", "mysql_username","mysql_password");
+$link = mysqli_connect("localhost", "mysql_test","mysql_test");
 $database = mysqli_select_db($link, "mysql_database");
 
 $user = $_GET['username'];
